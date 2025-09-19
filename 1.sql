@@ -27,68 +27,36 @@ SELECT "name" FROM "districts" JOIN "expenditures" ON "districts"."id" = "expend
 SELECT "name" FROM "districts" JOIN "expenditures" ON "districts"."id" = "expenditures"."district_id" WHERE "districts"."id" IN (SELECT "district_id" FROM "expenditures" ORDER BY 'per_pupil_expenditure' DESC LIMIT 10);
 
 
---11. display the names of schools, their per-pupil expenditure, and their graduation rate greatest per-pupil expenditure to least] [Or by name]
-SELECT "name" FROM "school" JOIN "schools" ON "district_id"."id" = "schools"."id" 
---You want the name from the school table, whose id in both tables 
-
-SELECT 'per_pupil_expenditure' FROM "expenditures" ORDER BY "per_pupil_expenditure" DESC LIMIT 10
-
-SELECT "graduated" FROM "graduation_rates" ORDER BY "graduated" DESC LIMIT 10
-
+--11. display the names of schools, their per-pupil expenditure, and their graduation rate 
+--Sort the schools from greatest per-pupil expenditure to least. If two schools have the same per-pupil expenditure, sort by school name
 --districts  PRIMARY KEY("id") // graduation_rates PRIMARY KEY("id"),FOREIGN KEY("school_id") REFERENCES "schools"("id")// expenditures  PRIMARY KEY("id") FOREIGN KEY("district_id") REFERENCES "districts"("id")
--- Grad -> School -> Districts <- Expenditures
+-- Grad FK-> PKSchool FK-> PKDistrictsPK <-FK Expenditures
 -- Info I need is in Grad and Expenditures 
 
 
 -- Display Names of school /Expenditure Rate / Graduation Rate 
 
 SELECT "per_pupil_expenditure", "graduated" FROM "districts" 
-JOIN "expenditures" ON "districts"."id" = "expenditures"."district_id" 
-JOIN "schools" ON "districts"."id" = "schools"."id" 
-JOIN "graduation_rates" ON "schools"."id" = "graduation_rates"."id"
+JOIN "expenditures" ON "expenditures"."id" = "districts"."id"
+JOIN "schools" ON "schools"."id" = "districts"."id" 
+JOIN "graduation_rates" ON "graduation_rates"."id" = "schools"."id"
 LIMIT 10;
 
-SELECT "per_pupil_expenditure" FROM "expenditures"
-UNION 
-SELECT "name" FROM "schools"
-UNION
-SELECT "graduated" FROM "graduation_rates" LIMIT 10;
+
 
 --12 districts’ names, along with their per-pupil expenditures and percentage of teachers rated exemplary above-average per-pupil expenditures and an above-average percentage of teachers rated “exemplary”
 -- Above Avg % Expenditure Rate / Above Avg% of Teachers rated Exemplary / 
-
--- staff_evaluations -> Districts <- Expenditures
-
 -- WHERE "exemplary" > (SELECT AVG("exemplary") FROM "staff_evaluations")
 
---Above AVG rate from Staff Eval
-SELECT "name", "exemplary" FROM "districts" JOIN "staff_evaluations" ON "districts"."id" = "staff_evaluations"."id" WHERE "districts"."id" IN (
-    SELECT "id" FROM "staff_evaluations" WHERE "exemplary" > (
-        SELECT AVG("exemplary") FROM "staff_evaluations")
-)
+-- Expenditures <- Districts -> Ratings 
+SELECT "exemplary" FROM "staff_evaluations" WHERE "exemplary" > (SELECT AVG("exemplary") FROM "staff_evaluations")
 
-UNION
--- Above AVG rate of spending 
-SELECT "name", "per_pupil_expenditure" FROM "districts" JOIN "expenditures" ON "districts"."id" = "expenditures"."district_id" WHERE "districts"."id" IN (
-    SELECT "district_id" FROM "expenditures" WHERE 'per_pupil_expenditure' > (
-        SELECT AVG("per_pupil_expenditure") FROM "expenditures")
-);
---
+SELECT "per_pupil_expenditure" FROM "expenditures" WHERE "per_pupil_expenditure" > (SELECT AVG("per_pupil_expenditure") FROM "expenditures")
 
-SELECT "id", AVG("exemplary") AS "average rating" FROM "staff_evaluations" WHERE "exemplary" > (
-    SELECT AVG("exemplary") FROM "staff_evaluations")
 
-UNION
-
-SELECT "id", AVG("per_pupil_expenditure") AS "average spending" FROM "expenditures" WHERE 'per_pupil_expenditure' > (
-        SELECT AVG("per_pupil_expenditure") FROM "expenditures")
-
+SELECT "districts"."name", "staff_evaluations"."exemplary", "expenditures"."per_pupil_expenditure" FROM "districts" AS "testing table"
+JOIN "expenditures" ON "expenditures"."id" = "districts"."id" 
+JOIN "staff_evaluations" ON "staff_evaluations"."id" = "districts"."id"
+WHERE "staff_evaluations"."exemplary" > (SELECT AVG("exemplary") FROM "staff_evaluations") AND
+"per_pupil_expenditure" > (SELECT AVG("per_pupil_expenditure") FROM "expenditures")
 GROUP BY "id";
-
---
-
-SELECT AVG("exemplary") AS "average rating" FROM "staff_evaluations"
-JOIN "districts" ON "staff_evaluations"."district_id" = "districts"."id" 
-JOIN "expenditures" ON "districts"."id" = "expenditures"."district_id" 
-GROUP BY "district_id"
-HAVING "average rating" > (SELECT AVG("exemplary"));
