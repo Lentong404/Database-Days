@@ -1,0 +1,10 @@
+SELECT "title", "author", "translator" FROM "longlist";
+SELECT "title", "author", "translator" FROM "longlist" LIMIT 5;
+SELECT "title", "author", "translator" FROM "longlist" LIMIT 12;
+SELECT "title", "author", "year"  FROM "longlist" WHERE "year" = 2022;
+SELECT "title", "author" FROM "longlist" WHERE "author" = 'Willem Anker';
+SELECT "title", "format" FROM "longlist" WHERE "format" = 'paperback';
+SELECT "title", "format" FROM "longlist" WHERE "format" != 'paperback';
+SELECT "title", "author" FROM "longlist" WHERE "year" = 2018 OR "year" = 2019;
+SELECT "title", "author" FROM "longlist" WHERE "year" = 2019  OR "year" = 2020 AND "format" = 'hardcover';
+SELECT "title", "author" FROM "longlist" WHERE "author" LIKE 'A%';

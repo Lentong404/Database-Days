@@ -31,8 +31,6 @@ SELECT "name" FROM "districts" JOIN "expenditures" ON "districts"."id" = "expend
 --Sort the schools from greatest per-pupil expenditure to least. If two schools have the same per-pupil expenditure, sort by school name
 --districts  PRIMARY KEY("id") // graduation_rates PRIMARY KEY("id"),FOREIGN KEY("school_id") REFERENCES "schools"("id")// expenditures  PRIMARY KEY("id") FOREIGN KEY("district_id") REFERENCES "districts"("id")
 -- Grad FK-> PKSchool FK-> PKDistrictsPK <-FK Expenditures
--- Info I need is in Grad and Expenditures 
-
 
 -- Display Names of school /Expenditure Rate / Graduation Rate 
 
@@ -41,6 +39,10 @@ JOIN "expenditures" ON "expenditures"."id" = "districts"."id"
 JOIN "schools" ON "schools"."id" = "districts"."id" 
 JOIN "graduation_rates" ON "graduation_rates"."id" = "schools"."id"
 LIMIT 10;
+
+SELECT "per_pupil_expenditure", "graduated" FROM "districts" 
+JOIN "expenditures" ON "expenditures"."id" = "districts"."id"
+
 
 
 

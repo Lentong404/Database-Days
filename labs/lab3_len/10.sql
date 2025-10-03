@@ -1,0 +1,1 @@
+SELECT "name" FROM "districts" JOIN "expenditures" ON "districts"."id" = "expenditures"."district_id" WHERE "districts"."id" IN (SELECT "district_id" FROM "expenditures" ORDER BY 'per_pupil_expenditure' DESC LIMIT 10);
