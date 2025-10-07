@@ -43,6 +43,16 @@ LIMIT 10;
 SELECT "per_pupil_expenditure", "graduated" FROM "districts" 
 JOIN "expenditures" ON "expenditures"."id" = "districts"."id"
 
+-- Solution
+SELECT "schools.name", "expenditures"."per_pupil_expenditure", "graduation_rates"."graduated"
+FROM "districts"
+JOIN "expenditures" ON "districts"."id" = "expenditures"."disctrict_id"
+-- Joining schools onto districts id ON districts.id which became schools.district.id
+JOIN "schools" ON "districts"."id" = "schools"."district"."id"
+-- Joining Graduation_rates to schools connects it to Districts
+JOIN "graduation_rates" ON "schools"."id" = "schools"."id"
+ORDER BY "expenditures"."per_pupil_expenditure" DESC, "schools."."name"
+
 
 
 
@@ -62,3 +72,18 @@ JOIN "staff_evaluations" ON "staff_evaluations"."id" = "districts"."id"
 WHERE "staff_evaluations"."exemplary" > (SELECT AVG("exemplary") FROM "staff_evaluations") AND
 "per_pupil_expenditure" > (SELECT AVG("per_pupil_expenditure") FROM "expenditures")
 GROUP BY "id";
+
+SELECT "districts"."name", "staff_evaluations"."exemplary", "expenditures"."per_pupil_expenditure"
+FROM "districts"
+JOIN "expenditures" ON "districts"."id" =  "expenditures"."district_id"
+JOIN "staff_evaluations" ON "districts"."id" = "staff_evaluations"."district_id"
+WHERE "districts"."id" IN(
+    SELECT "district_id" FROM "expenditures"
+    WHERE "per_pupil_expenditure" > (
+        SELECT AVG("expenditures"."per_pupil_expenditure") FROM "expenditures")
+        INTERSECT 
+        SELECT "districts"."id" FROM "staff_evaluations"
+        WHERE "exemplary" > (
+            SELECT AVG ("exemplary") FROM "staff_evaluations")
+)
+ORDER BY "staff_evaluations"."exemplary" DESC, "expenditures"."per_pupil_expenditure" DESC
