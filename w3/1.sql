@@ -86,4 +86,4 @@ WHERE "districts"."id" IN(
         WHERE "exemplary" > (
             SELECT AVG ("exemplary") FROM "staff_evaluations")
 )
-ORDER BY "staff_evaluations"."exemplary" DESC, "expenditures"."per_pupil_expenditure" DESC
+ORDER BY "staff_evaluations"."exemplary" DESC, "expenditures"."per_pupil_expenditure" DESC;
