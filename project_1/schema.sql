@@ -11,8 +11,8 @@ CREATE TABLE games{
     "game_id" INTEGER,
     "title" TEXT NOT NULL,
     "genre" TEXT NOT NULL,
-    "release_year" INTEGER NOT NULL
-    "rating" CHECK("rating" IN ('E','T','M'))
+    "release_year" INTEGER NOT NULL,
+    "rating" CHECK("rating" IN ('E','T','M')),
     "rental_price" REAL NOT NULL CHECK('rental_price' > 0),
     "purchase_price" REAL NOT NULL CHECK('rental_price' > 0),
     PRIMARY KEY ("game_id")
