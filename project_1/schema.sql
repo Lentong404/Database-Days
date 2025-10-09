@@ -6,7 +6,6 @@ CREATE TABLE users{
     PRIMARY KEY ("user_id")
 }
 
-
 CREATE TABLE games{
     "game_id" INTEGER,
     "title" TEXT NOT NULL,
