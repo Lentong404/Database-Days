@@ -1,6 +1,6 @@
-name,email,subscription_type 
-Len Tong,len@email.com,Premium
+name,email,subscription_type
+Len Tong,len@email.com,Basic
 Dylan White,dylan@email.com,Standard
-Marco Andrata,marco@email.com,Standard
-Sam Blair,sam@email.com,Premium
-Okochi Tomoko,okochi@email.com,Premium 
+Marco Andrata,marco@email.com,Basic
+Sam Blair,sam@email.com,Standard
+Okochi Tomoko,okochi@email.com,Premium

@@ -1,0 +1,1 @@
+SELECT "name", "subscription_type" FROM "users";
