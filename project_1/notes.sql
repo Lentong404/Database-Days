@@ -23,3 +23,7 @@ VALUES ('1','10','Purchase','NULL','2022-03-03','NULL','Active');
 
 INSERT INTO "library"("user_id","game_id","purchase_type","rental_date","launch_date","expiry_date","status")
 SELECT "user_id","game_id","purchase_type","rental_date","launch_date","expiry_date","status" FROM "temp";
+
+UPDATE "table_name"
+SET "column_name" = "new_value"
+WHERE "condition"
