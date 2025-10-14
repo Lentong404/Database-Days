@@ -27,3 +27,31 @@ SELECT "user_id","game_id","purchase_type","rental_date","launch_date","expiry_d
 UPDATE "table_name"
 SET "column_name" = "new_value"
 WHERE "condition"
+
+-- SUM of each WITH UNION
+-- SELECT SUM(
+--     CASE "purchase_type"
+--     WHEN 'Rental'
+--         THEN "price_rent"
+--     WHEN 'Purchase' 
+--         THEN "price_buy"
+-- END)
+-- AS "Total revenue" 
+-- FROM "games"
+-- JOIN "library" ON "games"."id" = "library"."game_id";
+
+--Calculate the total revenue generated from purchases and rentals.
+SELECT 
+    SUM("games"."rental_price") + SUM("games"."purchase_price") AS total_sum
+FROM "games"
+WHERE "games"."game_id" IN (SELECT "game_id" FROM "library" WHERE "purchase_type" = 'Purchase' OR "purchase_type" = 'Rental');
+
+-- 
+SELECT (
+    (SELECT SUM("rental_price") FROM "games"
+    WHERE "game_id" IN ( SELECT "game_id" FROM "library" WHERE "purchase_type" = 'Rental' ))
+    +
+    (SELECT SUM("purchase_price") FROM "games"
+    WHERE "game_id" IN ( SELECT "game_id" FROM "library" WHERE "purchase_type" = 'Purchase' ))
+)
+AS "Total Revenue";
