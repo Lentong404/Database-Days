@@ -67,3 +67,14 @@ SELECT SUM("price") FROM "flights" WHERE "flight_id" IN (
 SELECT SUM("flights"."price") AS "total_revenue" FROM "flights"
 JOIN "tickets" ON "flights"."flight_id" = "tickets"."flight_id" --This line is not needed
 
+SELECT 
+"flights"."flight_id",
+"flights"."airline",
+"flights"."origin",
+"flights"."destination",
+COUNT("tickets"."ticket_id") AS "total_tickets_sold",
+SUM("flights"."price") AS "total_revenue",
+SUM("total_revenue")
+FROM "flights"
+JOIN "tickets" ON "flights"."flight_id" = "tickets"."flight_id"
+GROUP BY "flights"."flights_id", "flights"."airline", "flights"."origin", "flights"."destination";

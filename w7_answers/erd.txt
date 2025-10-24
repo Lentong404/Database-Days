@@ -1,0 +1,10 @@
+ERD for the Airplane Ticket Booking System
+
+Passengers can purchase multiple Tickets.
+Each Ticket is associated with one Flight.
+Each Flight has multiple Tickets sold.
+ERD Relationships:
+
+Passenger ⟷ Ticket → One-to-Many (1:M)
+Flight ⟷ Ticket → One-to-Many (1:M)
+Passengers ⟷ Flights (Many-to-Many through Tickets)
