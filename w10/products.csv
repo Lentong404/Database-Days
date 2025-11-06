@@ -1,0 +1,6 @@
+product_id,name,price,stock_quantity
+1,Laptop,1200.00,10
+2,Smartphone,800.00,20
+3,Headphones,150.00,30
+4,Smartwatch,200.00,15
+5,Tablet,500.00,25

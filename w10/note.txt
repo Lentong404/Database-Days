@@ -1,0 +1,5 @@
+We will create triggers for:
+1. Automatically updating stock when an order is placed
+2. Preventing purchases if stock is too low
+3. Calculating subtotal before inserting an order item
+4. Logging deleted orders for record-keeping
