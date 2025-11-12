@@ -1,0 +1,1 @@
+CREATE INDEX album_title_index ON "Albums" ("title");
