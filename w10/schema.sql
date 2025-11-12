@@ -13,7 +13,7 @@ CREATE TABLE "Customers" (
     "name" TEXT NOT NULL,
     "email" TEXT UNIQUE NOT NULL,
     PRIMARY KEY ("customer_id")
-);O
+)
 
 -- Table: Orders
 CREATE TABLE "Orders" (
