@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "691670a780cedc11d0047497"
+  },
+  "brand": "Toyota",
+  "model": "Corolla",
+  "year": 2022,
+  "pricePerDay": 45.99,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "691670ae80cedc11d0047498"
+  },
+  "brand": "Honda",
+  "model": "Civic",
+  "year": 2021,
+  "pricePerDay": 50,
+  "available": false
+},
+{
+  "_id": {
+    "$oid": "691670ae80cedc11d0047499"
+  },
+  "brand": "Ford",
+  "model": "Focus",
+  "year": 2020,
+  "pricePerDay": 40,
+  "available": true
+}]

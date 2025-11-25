@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "691670be80cedc11d004749a"
+  },
+  "name": "Alice Wood",
+  "age": 32,
+  "membershipStartDate": {
+    "$date": "2019-06-15T00:00:00.000Z"
+  },
+  "lastRentalDate": {
+    "$date": "2025-11-13T23:58:54.552Z"
+  },
+  "preferredCarTypes": [
+    "SUV",
+    "Sedan"
+  ],
+  "contact": {
+    "email": "alice@example.com",
+    "phone": "+1-555-1234"
+  }
+},
+{
+  "_id": {
+    "$oid": "691670ca80cedc11d004749b"
+  },
+  "name": "Bob Green",
+  "age": 45,
+  "membershipStartDate": {
+    "$date": "2017-03-10T00:00:00.000Z"
+  },
+  "lastRentalDate": {
+    "$date": "2025-11-13T23:59:06.428Z"
+  },
+  "preferredCarTypes": [
+    "Convertible"
+  ],
+  "contact": {
+    "email": "bob@example.com",
+    "phone": "+1-555-5678"
+  }
+},
+{
+  "_id": {
+    "$oid": "691670ca80cedc11d004749c"
+  },
+  "name": "Emily Johnson",
+  "age": 27,
+  "membershipStartDate": {
+    "$date": "2021-09-21T00:00:00.000Z"
+  },
+  "lastRentalDate": {
+    "$date": "2025-11-13T23:59:06.428Z"
+  },
+  "preferredCarTypes": [
+    "Hatchback",
+    "Electric"
+  ],
+  "contact": {
+    "email": "emily@example.com",
+    "phone": "+1-555-9876"
+  }
+}]
