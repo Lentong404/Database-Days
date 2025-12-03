@@ -1,0 +1,6 @@
+1.What advantages does MongoDB offer for handling nested objects (e.g., address fields)?
+    Schema is more flexible, the datashape can change. MongoDB simplifies reading/writing in a single operation instead of joining multiple tables.
+2.How does MongoDB handle primary keys differently than SQL databases?
+    MongoDB assigns a unique _id to every document
+3.What happens if you insert a document without a required field*?
+    Insertion will be rejected because of the missing field
