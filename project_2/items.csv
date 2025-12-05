@@ -1,0 +1,9 @@
+item_id,item_name,item_type,sell_cost,rarity
+1,Sword,Weapon,15,Common
+2,Knuckles,Weapon,15,Common
+3,Red Potion,Consumable,3,Common
+4,Blue Potion,Consumable,3,Common
+5,Holy Light,Consumable,50,Rare
+6,Fire Rune,Consumable,20,Rare
+7,Ars Goetia,Weapon,500,Epic
+8,Hyacinthe,Weapon,1000,Legendary

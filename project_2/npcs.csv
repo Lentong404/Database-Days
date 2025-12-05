@@ -1,0 +1,7 @@
+npc_id,npc_name,faction_id,npc_class,npc_gold
+1,Estrella,3,Faction Leader,9999
+2,Callista,6,Merchant,2500
+3,Jarrod,5,Faction Leader,0
+4,Ivan,7,Station Master,0
+5,Everette,7,Station Master,0
+6,Romero,4,Faction Leader,9999

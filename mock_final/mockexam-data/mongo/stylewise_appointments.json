@@ -1,0 +1,50 @@
+[
+  {
+    "client": { "name": "Alice Wong" },
+    "stylist": { "name": "Sophia Park", "specialty": "Color" },
+    "services": ["Color"],
+    "appointment_date": { "$date": "2024-11-20T10:00:00Z" },
+    "confirmed": true,
+    "location": "Downtown"
+  },
+  {
+    "client": { "name": "Alice Wong" },
+    "stylist": { "name": "Liam Chen", "specialty": "Cut" },
+    "services": ["Cut"],
+    "appointment_date": { "$date": "2024-11-22T14:00:00Z" },
+    "confirmed": false,
+    "location": "Uptown"
+  },
+  {
+    "client": { "name": "Brandon Lee" },
+    "stylist": { "name": "Sophia Park", "specialty": "Color" },
+    "services": ["Color", "Highlights"],
+    "appointment_date": { "$date": "2024-11-21T16:00:00Z" },
+    "confirmed": true,
+    "location": "Downtown"
+  },
+  {
+    "client": { "name": "Cindy Tran" },
+    "stylist": { "name": "Liam Chen", "specialty": "Cut" },
+    "services": ["Cut"],
+    "appointment_date": { "$date": "2024-11-23T09:30:00Z" },
+    "confirmed": false,
+    "location": "Downtown"
+  },
+  {
+    "client": { "name": "Daniel Kim" },
+    "stylist": { "name": "Mia Singh", "specialty": "Perm" },
+    "services": ["Perm"],
+    "appointment_date": { "$date": "2024-11-26T13:00:00Z" },
+    "confirmed": true,
+    "location": "Midtown"
+  },
+  {
+    "client": { "name": "Emma Rodriguez" },
+    "stylist": { "name": "Sophia Park", "specialty": "Color" },
+    "services": ["Color"],
+    "appointment_date": { "$date": "2024-11-27T11:00:00Z" },
+    "confirmed": true,
+    "location": "Downtown"
+  }
+]

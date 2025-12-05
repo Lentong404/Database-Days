@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alice Wong",
+    "contact": {
+      "email": "alice@example.com",
+      "phone": "555-1111"
+    },
+    "preferredServices": ["Color", "Highlights"]
+  },
+  {
+    "name": "Brandon Lee",
+    "contact": {
+      "email": "brandon@example.com",
+      "phone": "555-2222"
+    },
+    "preferredServices": ["Cut", "Color"]
+  },
+  {
+    "name": "Cindy Tran",
+    "contact": {
+      "email": "cindy@example.com",
+      "phone": "555-3333"
+    },
+    "preferredServices": ["Cut"]
+  },
+  {
+    "name": "Daniel Kim",
+    "contact": {
+      "email": "daniel@example.com",
+      "phone": "555-4444"
+    },
+    "preferredServices": ["Perm", "Treatment"]
+  },
+  {
+    "name": "Emma Rodriguez",
+    "contact": {
+      "email": "emma@example.com",
+      "phone": "555-5555"
+    },
+    "preferredServices": ["Color"]
+  }
+]
