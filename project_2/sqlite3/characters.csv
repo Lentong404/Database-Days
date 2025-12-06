@@ -6,3 +6,6 @@ char_id,user_id,char_name,char_gender,faction_id,char_class,char_gold,char_level
 5,5,Shiv,Male,1,Warrior,20,1
 6,6,Johm,Male,2,Mage,45,24
 7,7,Dragon Fru,Female,1,Warrior,20,1
+8,8,Lyra,Female,3,Rogue,40,5
+9,9,Heinrix,Male,4,Warrior,12,29
+10,10,Emmrich,Male,4,Mage,42,42

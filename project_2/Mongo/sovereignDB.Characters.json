@@ -1,0 +1,250 @@
+[{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c128"
+  },
+  "name": "Shuli",
+  "gender": "Female",
+  "Faction": "Hotel Beacon",
+  "Class": "Rogue",
+  "Inventory": [
+    {
+      "Gold": 50
+    },
+    {
+      "Weapon": "Dagger"
+    }
+  ],
+  "Stats": {
+    "Level": 50,
+    "Strength": 24,
+    "Intelligence": 19,
+    "Agility": 40,
+    "Defence": 15,
+    "Luck": 40
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c129"
+  },
+  "name": "Rui",
+  "gender": "Female",
+  "Faction": "Hotel Beacon",
+  "Class": "Mage",
+  "Inventory": [
+    {
+      "Gold": 42
+    },
+    {
+      "Weapon": "Brush"
+    }
+  ],
+  "Stats": {
+    "Level": 35,
+    "Strength": 12,
+    "Intelligence": 42,
+    "Agility": 30,
+    "Defence": 18,
+    "Luck": 36
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c12a"
+  },
+  "name": "Nora",
+  "gender": "Female",
+  "Faction": "No Faction",
+  "Class": "Warrior",
+  "Inventory": [
+    {
+      "Gold": 38
+    },
+    {
+      "Weapon": "Knuckles"
+    }
+  ],
+  "Stats": {
+    "Level": 4,
+    "Strength": 25,
+    "Intelligence": 8,
+    "Agility": 14,
+    "Defence": 12,
+    "Luck": 16
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c12b"
+  },
+  "name": "Karesa",
+  "gender": "Female",
+  "Faction": "Hotel Beacon",
+  "Class": "Mage",
+  "Inventory": [
+    {
+      "Gold": 30
+    },
+    {
+      "Weapon": "Staff"
+    }
+  ],
+  "Stats": {
+    "Level": 25,
+    "Strength": 8,
+    "Intelligence": 27,
+    "Agility": 22,
+    "Defence": 12,
+    "Luck": 23
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c12c"
+  },
+  "name": "Shiv",
+  "gender": "Male",
+  "Faction": "No Faction",
+  "Class": "Warrior",
+  "Inventory": [
+    {
+      "Gold": 20
+    },
+    {
+      "Weapon": "Sword"
+    }
+  ],
+  "Stats": {
+    "Level": 5,
+    "Strength": 5,
+    "Intelligence": 5,
+    "Agility": 5,
+    "Defence": 5,
+    "Luck": 5
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c12d"
+  },
+  "name": "Johm",
+  "gender": "Male",
+  "Faction": "Hotel Beacon",
+  "Class": "Mage",
+  "Inventory": [
+    {
+      "Gold": 20
+    },
+    {
+      "Weapon": "Staff"
+    }
+  ],
+  "Stats": {
+    "Level": 24,
+    "Strength": 11,
+    "Intelligence": 36,
+    "Agility": 23,
+    "Defence": 14,
+    "Luck": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c12e"
+  },
+  "name": "Dragon Fru",
+  "gender": "Female",
+  "Faction": "No Faction",
+  "Class": "Warrior",
+  "Inventory": [
+    {
+      "Gold": 20
+    },
+    {
+      "Weapon": "Brush"
+    }
+  ],
+  "Stats": {
+    "Level": 1,
+    "Strength": 5,
+    "Intelligence": 5,
+    "Agility": 5,
+    "Defence": 5,
+    "Luck": 5
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c12f"
+  },
+  "name": "Lyra",
+  "gender": "Female",
+  "Faction": "Polaris",
+  "Class": "Rogue",
+  "Inventory": [
+    {
+      "Gold": 40
+    },
+    {
+      "Weapon": "Dagger"
+    }
+  ],
+  "Stats": {
+    "Level": 5,
+    "Strength": 12,
+    "Intelligence": 8,
+    "Agility": 18,
+    "Defence": 8,
+    "Luck": 26
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c130"
+  },
+  "name": "Heinrix",
+  "gender": "Male",
+  "Faction": "Jack Ravens",
+  "Class": "Warrior",
+  "Inventory": [
+    {
+      "Gold": 12
+    },
+    {
+      "Weapon": "Sword"
+    }
+  ],
+  "Stats": {
+    "Level": 29,
+    "Strength": 32,
+    "Intelligence": 18,
+    "Agility": 28,
+    "Defence": 25,
+    "Luck": 18
+  }
+},
+{
+  "_id": {
+    "$oid": "69336210ab1f911c5c82c131"
+  },
+  "name": "Emmrich",
+  "gender": "Male",
+  "Faction": "Jack Ravens",
+  "Class": "Mage",
+  "Inventory": [
+    {
+      "Gold": 42
+    },
+    {
+      "Weapon": "Staff"
+    }
+  ],
+  "Stats": {
+    "Level": 42,
+    "Strength": 8,
+    "Intelligence": 56,
+    "Agility": 29,
+    "Defence": 12,
+    "Luck": 24
+  }
+}]

@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c0fd"
+  },
+  "Name": "Sword",
+  "Type": "Weapon",
+  "Sell Cost": 15,
+  "Rarity": "Common"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c0fe"
+  },
+  "Name": "Knuckles",
+  "Type": "Weapon",
+  "Sell Cost": 15,
+  "Rarity": "Common"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c0ff"
+  },
+  "Name": "Brush",
+  "Type": "Weapon",
+  "Sell Cost": 25,
+  "Rarity": "Rare"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c100"
+  },
+  "Name": "Cane",
+  "Type": "Weapon",
+  "Sell Cost": 50,
+  "Rarity": "Rare"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c101"
+  },
+  "Name": "Rifle",
+  "Type": "Weapon",
+  "Sell Cost": 50,
+  "Rarity": "Rare"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c102"
+  },
+  "Name": "Red Potion",
+  "Type": "Consumable",
+  "Sell Cost": 3,
+  "Rarity": "Common"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c103"
+  },
+  "Name": "Blue Potion",
+  "Type": "Consumable",
+  "Sell Cost": 3,
+  "Rarity": "Common"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c104"
+  },
+  "Name": "Holy Light",
+  "Type": "Consumable",
+  "Sell Cost": 50,
+  "Rarity": "Rare"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c105"
+  },
+  "Name": "Ars Goetia",
+  "Type": "Weapon",
+  "Sell Cost": 500,
+  "Rarity": "Epic"
+},
+{
+  "_id": {
+    "$oid": "69335b8bab1f911c5c82c106"
+  },
+  "Name": "Hyacinthe",
+  "Type": "Weapon",
+  "Sell Cost": 1000,
+  "Rarity": "Legendary"
+}]
