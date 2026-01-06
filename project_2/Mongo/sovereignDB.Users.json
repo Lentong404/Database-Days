@@ -1,0 +1,142 @@
+[{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c10f"
+  },
+  "Username": "Destreza",
+  "Email": "destreza@email.com",
+  "Character": "Rogue",
+  "Friends List": [
+    {
+      "Rui": {
+        "Character": "Rui"
+      }
+    },
+    {
+      "Nyomnom": {
+        "Character": "Nora"
+      }
+    },
+    {
+      "Ostreet": {
+        "Character": "Lyra"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c110"
+  },
+  "name": "Rui",
+  "Email": "rui@email.com",
+  "Character": "Rui",
+  "Friends List": [
+    {
+      "Destreza": {
+        "Character": "Shuli"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c111"
+  },
+  "name": "Nyomnom",
+  "Email": "nyom@email.com",
+  "Character": "Nora",
+  "Friends List": [
+    {
+      "Destreza": {
+        "Character": "Shuli"
+      },
+      "Dragonfruit": {
+        "Character": "Dragon Fru"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c112"
+  },
+  "name": "Kar",
+  "Email": "kar@email.com",
+  "Character": "Karesa",
+  "Friends List": [
+    {
+      "Shiva": {
+        "Character": "Shiv"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c113"
+  },
+  "name": "Shiva",
+  "Email": "shiva@email.com",
+  "Character": "Shiv",
+  "Friends List": [
+    {
+      "Kar": {
+        "Character": "Karesa"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c114"
+  },
+  "name": "Johm",
+  "Email": "johm@email.com",
+  "Character": "Johm",
+  "Friends List": []
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c115"
+  },
+  "name": "Dragonfruit",
+  "Email": "dragonfruit@email.com",
+  "Character": "Dragonfruit",
+  "Friends List": [
+    {
+      "Nyomnom": {
+        "Character": "Nora"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c116"
+  },
+  "name": "Ostreet",
+  "Email": "ostreet@email.com",
+  "Character": "Lyra",
+  "Friends List": [
+    {
+      "Destreza": {
+        "Character": "Shuli"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69335b9cab1f911c5c82c117"
+  },
+  "name": "Herschel",
+  "Email": "herschel@email.com",
+  "Character": "Heinrix",
+  "Friends List": [
+    {
+      "Loran": {
+        "Character": "Emmrich"
+      }
+    }
+  ]
+}]

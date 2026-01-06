@@ -3,7 +3,7 @@ CREATE TABLE Users (
     "user_name" TEXT NOT NULL,
     "user_email" TEXT NOT NULL UNIQUE,
     "char_id" INTEGER,
-    "last_login" TEXT DEFAULT CURRENT_TIMESTAMP,
+    "last_login" DATETIME DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY ("user_id"),
     FOREIGN KEY ("char_id") REFERENCES "Character"("char_id")
 );

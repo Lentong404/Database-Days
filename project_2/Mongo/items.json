@@ -1,0 +1,51 @@
+[{
+    "Name":"Sword",
+    "Type":"Weapon",
+    "Sell Cost":15,
+    "Rarity":"Common"
+},{
+    "Name":"Knuckles",
+    "Type":"Weapon",
+    "Sell Cost":15,
+    "Rarity":"Common"
+},{
+    "Name":"Brush",
+    "Type":"Weapon",
+    "Sell Cost":25,
+    "Rarity":"Rare"
+},{
+    "Name":"Cane",
+    "Type":"Weapon",
+    "Sell Cost":50,
+    "Rarity":"Rare"
+},{
+    "Name":"Rifle",
+    "Type":"Weapon",
+    "Sell Cost":50,
+    "Rarity":"Rare"
+},{
+    "Name":"Red Potion",
+    "Type":"Consumable",
+    "Sell Cost":3,
+    "Rarity":"Common"
+},{
+    "Name":"Blue Potion",
+    "Type":"Consumable",
+    "Sell Cost":3,
+    "Rarity":"Common"
+},{
+    "Name":"Holy Light",
+    "Type":"Consumable",
+    "Sell Cost":50,
+    "Rarity":"Rare"
+},{
+    "Name":"Ars Goetia",
+    "Type":"Weapon",
+    "Sell Cost":500,
+    "Rarity":"Epic"
+},{
+    "Name":"Hyacinthe",
+    "Type":"Weapon",
+    "Sell Cost":1000,
+    "Rarity":"Legendary"
+}]

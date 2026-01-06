@@ -1,0 +1,119 @@
+[{
+    "Username":"Destreza",
+    "Email":"destreza@email.com",
+    "Character":"Rogue",
+    "Friends List":[
+        {"Rui":{
+            "Character":"Rui"
+        }},
+        {
+            "Nyomnom":{
+            "Character":"Nora"
+        }},
+        {
+            "Ostreet":{
+            "Character":"Lyra"
+        }}]
+        
+},
+{
+    "name":"Rui",
+    "Email":"rui@email.com",
+    "Character":"Rui",
+    "Friends List":[
+        {
+        "Destreza":{
+            "Character":"Shuli"
+        }
+    }
+    ]
+},
+{
+    "name":"Nyomnom",
+    "Email":"nyom@email.com",
+    "Character":"Nora",
+    "Friends List":[
+        {
+        "Destreza":{
+            "Character":"Shuli"
+        },
+        "Dragonfruit":{
+            "Character":"Dragon Fru"
+        }
+    }
+    ]
+},
+{
+    "name":"Kar",
+    "Email":"kar@email.com",
+    "Character":"Karesa",
+    "Friends List":[
+        {
+        "Shiva":{
+            "Character":"Shiv"
+        }
+    }
+    ]
+},
+{
+    "name":"Shiva",
+    "Email":"shiva@email.com",
+    "Character":"Shiv",
+    "Friends List":[
+        {
+        "Kar":{
+            "Character":"Karesa"
+        }
+    }
+    ]
+},
+{
+    "name":"Johm",
+    "Email":"johm@email.com",
+    "Character":"Johm",
+    "Friends List":[]
+},
+{
+    "name":"Dragonfruit",
+    "Email":"dragonfruit@email.com",
+    "Character":"Dragonfruit",
+    "Friends List":[
+        {
+        "Nyomnom":{
+            "Character":"Nora"
+        }
+    }
+    ]
+},
+{
+    "name":"Ostreet",
+    "Email":"ostreet@email.com",
+    "Character":"Lyra",
+    "Friends List":[
+        {
+        "Destreza":{
+            "Character":"Shuli"
+        }
+    }
+    ]
+},
+{
+    "name":"Herschel",
+    "Email":"herschel@email.com",
+    "Character":"Heinrix",
+    "Friends List":[{
+        "Loran":{
+            "Character":"Emmrich"
+        }
+    }]
+},
+{
+    "name":"Loran",
+    "Email":"emmrich@email.com",
+    "Character":"Emmrich",
+    "Friends List":[{
+        "Herschel":{
+            "Character":"Heinrix"
+        }
+    }]
+}]

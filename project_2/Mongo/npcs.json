@@ -1,0 +1,133 @@
+[{
+    "name":"Estrella",
+    "gender":"Female",
+    "Faction":"Polaris",
+    "Class":"Faction Leader",
+    "Inventory":[
+        {"Gold":9999},
+        {"Weapon":"Sword"}
+    ]
+    ,
+    "Stats":{
+        "Level":50,
+        "Strength":55,
+        "Intelligence":75,
+        "Agility":60,
+        "Defence":75,
+        "Luck":65
+    }
+},{
+    "name":"Callista",
+    "gender":"Female",
+    "Faction":"Civilians",
+    "Class":"Merchant",
+    "Inventory":[
+        {"Gold":2500},
+        {"Sword":{
+            "type":"Weapon",
+            "Sell Cost":15,
+            "Rarity":"Common"
+        }},
+        {"Knuckles":{
+            "type":"Weapon",
+            "Sell Cost":15,
+            "Rarity":"Common"
+        }},
+        {"Red Potion":{
+            "type":"Consumable",
+            "Sell Cost":5,
+            "Rarity":"Common"
+        }},
+        {"Blue Potion":{
+            "type":"Consumable",
+            "Sell Cost":5,
+            "Rarity":"Common"
+        }},
+        {"Fire Rune":{
+            "type":"Consumable",
+            "Sell Cost":15,
+            "Rarity":"Rare"
+        }},
+        {"Hyacinthe":{
+            "type":"Weapon",
+            "Sell Cost":1500,
+            "Rarity":"Legendary"
+        }
+    }],
+    "Stats":{
+        "Level":10,
+        "Strength":15,
+        "Intelligence":15,
+        "Agility":15,
+        "Defence":15,
+        "Luck":15
+    }},{
+    "name":"Jarrod",
+    "gender":"Male",
+    "Faction":"Pale Moon",
+    "Class":"Faction Leader",
+    "Inventory":[
+        {"Gold":0},
+        {"Weapon":"Cane"}
+    ]
+    ,
+    "Stats":{
+        "Level":50,
+        "Strength":55,
+        "Intelligence":75,
+        "Agility":60,
+        "Defence":75,
+        "Luck":65
+    }
+},{
+    "name":"Ivan",
+    "gender":"Male",
+    "Faction":"Station Masters",
+    "Class":"Faction Leader",
+    "Inventory":[
+        {"Gold":0},
+        {"Weapon":"Rifle"}
+    ],
+    "Stats":{
+        "Level":80,
+        "Strength":80,
+        "Intelligence":80,
+        "Agility":80,
+        "Defence":80,
+        "Luck":80
+    }
+},{
+    "name":"Everette",
+    "gender":"Male",
+    "Faction":"Station Masters",
+    "Class":"Faction lieutenant",
+    "Inventory":[
+        {"Gold":0},
+        {"Weapon":"Sword"}
+    ],
+    "Stats":{
+        "Level":80,
+        "Strength":80,
+        "Intelligence":80,
+        "Agility":80,
+        "Defence":80,
+        "Luck":80
+    }
+},{
+    "name":"Romero",
+    "gender":"Male",
+    "Faction":"Jack Ravens",
+    "Class":"Faction Leader",
+    "Inventory":[
+        {"Gold":9999},
+        {"Weapon":"Perfume"}
+    ],
+    "Stats":{
+        "Level":50,
+        "Strength":55,
+        "Intelligence":75,
+        "Agility":60,
+        "Defence":75,
+        "Luck":65
+    }
+}]
