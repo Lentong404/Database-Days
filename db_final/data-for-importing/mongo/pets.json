@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Luna",
+    "age": 2,
+    "breed": "Corgi",
+    "available": true,
+    "location": "Vancouver",
+    "adoptionFee": 200
+  },
+  {
+    "name": "Max",
+    "age": 5,
+    "breed": "Poodle",
+    "available": true,
+    "location": "Toronto",
+    "adoptionFee": 250
+  },
+  {
+    "name": "Bella",
+    "age": 3,
+    "breed": "Golden Retriever",
+    "available": false,
+    "location": "Vancouver",
+    "adoptionFee": 300
+  },
+  {
+    "name": "Rocky",
+    "age": 1,
+    "breed": "Shiba Inu",
+    "available": true,
+    "location": "Calgary",
+    "adoptionFee": 180
+  },
+  {
+    "name": "Milo",
+    "age": 4,
+    "breed": "Beagle",
+    "available": true,
+    "location": "Toronto",
+    "adoptionFee": 220
+  },
+  {
+    "name": "Nala",
+    "age": 2,
+    "breed": "Persian Cat",
+    "available": true,
+    "location": "Vancouver",
+    "adoptionFee": 150
+  },
+  {
+    "name": "Oscar",
+    "age": 7,
+    "breed": "Tabby Cat",
+    "available": false,
+    "location": "Montreal",
+    "adoptionFee": 90
+  },
+  {
+    "name": "Daisy",
+    "age": 3,
+    "breed": "Corgi",
+    "available": true,
+    "location": "Toronto",
+    "adoptionFee": 210
+  }
+]

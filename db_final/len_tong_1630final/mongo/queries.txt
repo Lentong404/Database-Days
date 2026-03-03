@@ -1,0 +1,18 @@
+db.pets.find({age:{$lte:3}})
+
+db.adopters.find({$and: [{preferredBreeds:"Corgi"},{preferredBreeds:"Poodle"}]})
+
+db.adopters.find({},{name:true,contact:{email:true}})
+
+db.members.updateOne({name: "Alice Wong"},{$set:{Contact:{phone:"123-4567"}}})
+
+db.books.deleteMany({available: false})
+
+db.pets.createIndex({breed: 1})
+
+db.pets.dropIndex({breed: 1})
+
+db.pets.find({$or: [{location: "Vancouver"},{age:{$lt: 5}}]})
+
+db.pets.find({$and: [{$or : [{location:"Vancouver"},{age:{$lt: 5}}]},{$or : [{location:"Toronto"},{adoptionFee:{$lte: 200}}]}] })
+

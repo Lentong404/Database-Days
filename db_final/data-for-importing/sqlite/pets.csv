@@ -1,0 +1,11 @@
+pet_id,name,breed,age,available,adoption_fee
+1,Luna,Corgi,2,1,200
+2,Max,Poodle,5,1,250
+3,Bella,Golden Retriever,3,0,300
+4,Rocky,Shiba Inu,1,1,180
+5,Milo,Beagle,4,1,220
+6,Nala,Persian Cat,2,1,150
+7,Oscar,Tabby Cat,7,0,90
+8,Daisy,Corgi,3,1,210
+9,Charlie,Poodle,1,1,260
+10,Koda,Husky,6,1,280

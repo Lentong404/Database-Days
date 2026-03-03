@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Alice Wong",
+    "contact": {
+      "email": "alice@example.com",
+      "phone": "555-1234"
+    },
+    "preferredBreeds": ["Corgi", "Poodle"],
+    "joinDate": { "$date": "2023-05-10T00:00:00Z" }
+  },
+  {
+    "name": "Brandon Lee",
+    "contact": {
+      "email": "brandon@example.com",
+      "phone": "555-5678"
+    },
+    "preferredBreeds": ["Golden Retriever", "Corgi"],
+    "joinDate": { "$date": "2023-06-22T00:00:00Z" }
+  },
+  {
+    "name": "Cindy Tran",
+    "contact": {
+      "email": "cindy@example.com",
+      "phone": "555-9999"
+    },
+    "preferredBreeds": ["Shiba Inu", "Husky"],
+    "joinDate": { "$date": "2023-09-01T00:00:00Z" }
+  },
+  {
+    "name": "Daniel Kim",
+    "contact": {
+      "email": "daniel@example.com",
+      "phone": "555-2222"
+    },
+    "preferredBreeds": ["Poodle"],
+    "joinDate": { "$date": "2023-11-15T00:00:00Z" }
+  },
+  {
+    "name": "Emma Rodriguez",
+    "contact": {
+      "email": "emma@example.com",
+      "phone": "555-3333"
+    },
+    "preferredBreeds": ["Corgi", "Poodle", "Beagle"],
+    "joinDate": { "$date": "2024-01-05T00:00:00Z" }
+  },
+  {
+    "name": "Faisal Khan",
+    "contact": {
+      "email": "faisal@example.com",
+      "phone": "555-4444"
+    },
+    "preferredBreeds": ["Tabby Cat"],
+    "joinDate": { "$date": "2022-12-20T00:00:00Z" }
+  }
+]
